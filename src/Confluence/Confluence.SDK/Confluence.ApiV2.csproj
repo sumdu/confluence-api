@@ -4,14 +4,14 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Title>Confluence REST API v2 Client</Title>
+    <Title>Confluence REST API v2 Client by Richka Soft</Title>
 	<Description>.NET library to call Confluence REST API v2</Description>
-	<Version>1.0.0</Version>
-	<Authors>Richka Soft</Authors>
+	<Version>1.13.0</Version>
+	<Authors>Andrew O.</Authors>
 	<ProjectUrl>https://github.com/sumdu/confluence-api</ProjectUrl>
 	<PackageReleaseNotes>
 		<![CDATA[
-	Version 1.0.0
+	Version 1.13.0
 	---------------
 	Initial release of Confluence REST API v2 Client for .NET.
 	]]></PackageReleaseNotes>
