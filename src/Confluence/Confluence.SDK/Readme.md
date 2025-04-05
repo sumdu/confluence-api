@@ -9,32 +9,32 @@ https://developer.atlassian.com/cloud/confluence/rest/v2/
 
 Following APIs are supported at the moment:
 
-☑ Attachment
-☑ Ancestors
-☑ Blog Post
-☑ Children
-☐ Classification Level
-☐ Comment
-☑ Content
-☑ Content Properties
-☐ Custom Content
-☐ Database
-☑ Data Policies
-☑ Descendants
-☑ Folder
-☑ Label
-☑ Like
-☑ Operation
-☑ Page
-☑ Smart Link
-☑ Space
-☐ Space Permissions
-☐ Space Properties
-☐ Space Roles
-☐ Task
-☐ User
-☑ Version
-☐ Whiteboard
+  ☑ Attachment
+  ☑ Ancestors
+  ☑ Blog Post
+  ☑ Children
+  ☐ Classification Level
+  ☐ Comment
+  ☑ Content
+  ☑ Content Properties
+  ☐ Custom Content
+  ☐ Database
+  ☑ Data Policies
+  ☑ Descendants
+  ☑ Folder
+  ☑ Label
+  ☑ Like
+  ☑ Operation
+  ☑ Page
+  ☑ Smart Link
+  ☑ Space
+  ☐ Space Permissions
+  ☐ Space Properties
+  ☐ Space Roles
+  ☐ Task
+  ☐ User
+  ☑ Version
+  ☐ Whiteboard
 
 ### Usage
 
