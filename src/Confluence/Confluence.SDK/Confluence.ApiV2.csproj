@@ -6,14 +6,18 @@
     <Nullable>enable</Nullable>
     <Title>Confluence REST API v2 Client by Richka Soft</Title>
 	<Description>.NET library to call Confluence REST API v2</Description>
-	<Version>1.13.0</Version>
+	<Version>1.14.0</Version>
 	<Authors>Andrew O.</Authors>
 	<ProjectUrl>https://github.com/sumdu/confluence-api</ProjectUrl>
 	<PackageReleaseNotes>
 		<![CDATA[
-	Version 1.13.0
-	---------------
-	Initial release of Confluence REST API v2 Client for .NET.
+Version 1.13.0
+---------------
+Initial release of Confluence REST API v2 Client for .NET.
+
+Version 1.14.0
+---------------
+Added warning in Readme.md about the library being in beta.
 	]]></PackageReleaseNotes>
 	<PackageId>RichkaSoft.$(AssemblyName)</PackageId>
 	<RootNamespace>RichkaSoft.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>

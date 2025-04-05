@@ -2,6 +2,8 @@
 
 The Confluence REST API V2 Client is a .NET client for the Confluence REST API v2. This library makes it easy for developes to create an application that interacts with Confluence. It is designed to be simple and easy to use, while still providing all the functionality you need to work with Confluence.
 
+**WARNING: this code is still in developemnt and some features may not work. Use at your own risk in production.**
+
 Confluence API v2 documentation is available at: 
 https://developer.atlassian.com/cloud/confluence/rest/v2/
 
