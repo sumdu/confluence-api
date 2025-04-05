@@ -5,37 +5,6 @@ The Confluence REST API V2 Client is a .NET client for the Confluence REST API v
 Confluence API v2 documentation is available at: 
 https://developer.atlassian.com/cloud/confluence/rest/v2/
 
-### Supported APIs
-
-Following APIs are supported at the moment:
-
-  ☑ Attachment
-  ☑ Ancestors
-  ☑ Blog Post
-  ☑ Children
-  ☐ Classification Level
-  ☐ Comment
-  ☑ Content
-  ☑ Content Properties
-  ☐ Custom Content
-  ☐ Database
-  ☑ Data Policies
-  ☑ Descendants
-  ☑ Folder
-  ☑ Label
-  ☑ Like
-  ☑ Operation
-  ☑ Page
-  ☑ Smart Link
-  ☑ Space
-  ☐ Space Permissions
-  ☐ Space Properties
-  ☐ Space Roles
-  ☐ Task
-  ☐ User
-  ☑ Version
-  ☐ Whiteboard
-
 ### Usage
 
 Below examples demonstrate the basic usage. 
@@ -73,6 +42,37 @@ var allSpacesFirstPage = client.Spaces.GetSpaces(new GetSpacesRequest());
 // Get remianing pages
 var allSpaces = client.FetchAllPages(allSpacesFirstPage);
 ```
+
+### Supported APIs
+
+Following APIs are supported at the moment:
+
+  ☑ Attachment
+  ☑ Ancestors
+  ☑ Blog Post
+  ☑ Children
+  ☐ Classification Level
+  ☐ Comment
+  ☑ Content
+  ☑ Content Properties
+  ☐ Custom Content
+  ☐ Database
+  ☑ Data Policies
+  ☑ Descendants
+  ☑ Folder
+  ☑ Label
+  ☑ Like
+  ☑ Operation
+  ☑ Page
+  ☑ Smart Link
+  ☑ Space
+  ☐ Space Permissions
+  ☐ Space Properties
+  ☐ Space Roles
+  ☐ Task
+  ☐ User
+  ☑ Version
+  ☐ Whiteboard
 
 ## Contribute
 
