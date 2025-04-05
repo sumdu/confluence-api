@@ -1,8 +1,8 @@
-﻿using Confluence.ApiV2.ApiAreas.Models.Content;
-using Confluence.ApiV2.Exceptions;
+﻿using RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Content;
+using RichkaSoft.Confluence.ApiV2.Exceptions;
 using RestSharp;
 
-namespace Confluence.ApiV2.ApiAreas;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas;
 
 public class ContentApi
 {

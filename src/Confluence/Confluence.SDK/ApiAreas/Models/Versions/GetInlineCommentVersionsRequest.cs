@@ -1,9 +1,9 @@
-﻿using Confluence.ApiV2.ApiAreas.Models._Common;
-using Confluence.ApiV2.ApiAreas.Models.Pages;
-using Confluence.ApiV2.Serializers.Attributes;
+﻿using RichkaSoft.Confluence.ApiV2.ApiAreas.Models._Common;
+using RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Pages;
+using RichkaSoft.Confluence.ApiV2.Serializers.Attributes;
 using Newtonsoft.Json;
 
-namespace Confluence.ApiV2.ApiAreas.Models.Versions;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Versions;
 public class GetInlineCommentVersionsRequest : PaginatedRequest
 {
     [PathParam]

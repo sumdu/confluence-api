@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Confluence.ApiV2.ApiAreas.Models;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models;
 
 public class MultiEntityResult<T>
 {

@@ -1,7 +1,7 @@
-﻿using Confluence.ApiV2.Serializers.Attributes;
+﻿using RichkaSoft.Confluence.ApiV2.Serializers.Attributes;
 using Newtonsoft.Json;
 
-namespace Confluence.ApiV2.ApiAreas.Models.Versions;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Versions;
 public class GetVersionDetailsForInlineCommentVersionRequest
 {
     [PathParam]

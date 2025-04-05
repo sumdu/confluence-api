@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Confluence.ApiV2.ApiAreas.Models.Labels;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Labels;
 
 public enum LabelPrefixEnum
 {

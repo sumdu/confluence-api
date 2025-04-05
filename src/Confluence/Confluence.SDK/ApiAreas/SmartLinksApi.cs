@@ -1,10 +1,10 @@
-﻿using Confluence.ApiV2.ApiAreas.Models;
-using Confluence.ApiV2.ApiAreas.Models.Pages;
-using Confluence.ApiV2.ApiAreas.Models.SmartLinks;
-using Confluence.ApiV2.ApiAreas.Models.Spaces;
+﻿using RichkaSoft.Confluence.ApiV2.ApiAreas.Models;
+using RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Pages;
+using RichkaSoft.Confluence.ApiV2.ApiAreas.Models.SmartLinks;
+using RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Spaces;
 using RestSharp;
 
-namespace Confluence.ApiV2.ApiAreas
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas
 {
     public class SmartLinksApi
     {

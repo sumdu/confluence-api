@@ -1,9 +1,9 @@
-﻿using Confluence.ApiV2.Extensions;
-using Confluence.ApiV2.Serializers.Attributes;
+﻿using RichkaSoft.Confluence.ApiV2.Extensions;
+using RichkaSoft.Confluence.ApiV2.Serializers.Attributes;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace Confluence.ApiV2.Serializers;
+namespace RichkaSoft.Confluence.ApiV2.Serializers;
 
 internal class BodyParamsSerializer2
 {

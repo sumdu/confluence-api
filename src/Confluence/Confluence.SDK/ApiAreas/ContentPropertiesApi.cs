@@ -1,9 +1,9 @@
-﻿using Confluence.ApiV2.ApiAreas.Models;
-using Confluence.ApiV2.ApiAreas.Models.ContentProperties;
-using Confluence.ApiV2.ApiAreas.Models.Versions;
+﻿using RichkaSoft.Confluence.ApiV2.ApiAreas.Models;
+using RichkaSoft.Confluence.ApiV2.ApiAreas.Models.ContentProperties;
+using RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Versions;
 using RestSharp;
 
-namespace Confluence.ApiV2.ApiAreas
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas
 {
     public class ContentPropertiesApi
     {

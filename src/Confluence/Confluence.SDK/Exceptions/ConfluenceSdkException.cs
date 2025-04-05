@@ -1,4 +1,4 @@
-﻿namespace Confluence.ApiV2.Exceptions
+﻿namespace RichkaSoft.Confluence.ApiV2.Exceptions
 {
     public class ConfluenceSdkException : Exception
     {

@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Confluence.ApiV2.ApiAreas.Models.Pages;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Pages;
 
 public class UpdatePageRequestVersion
 {

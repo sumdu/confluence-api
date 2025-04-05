@@ -1,11 +1,11 @@
-﻿using Confluence.ApiV2.Exceptions;
-using Confluence.ApiV2.Extensions;
-using Confluence.ApiV2.Serializers.Attributes;
+﻿using RichkaSoft.Confluence.ApiV2.Exceptions;
+using RichkaSoft.Confluence.ApiV2.Extensions;
+using RichkaSoft.Confluence.ApiV2.Serializers.Attributes;
 using Newtonsoft.Json;
 using System.Reflection;
 using System.Text;
 
-namespace Confluence.ApiV2.Serializers;
+namespace RichkaSoft.Confluence.ApiV2.Serializers;
 
 internal class QueryParamsSerializer
 {

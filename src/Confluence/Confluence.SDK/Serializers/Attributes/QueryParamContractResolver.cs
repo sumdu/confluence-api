@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace Confluence.ApiV2.Serializers.Attributes;
+namespace RichkaSoft.Confluence.ApiV2.Serializers.Attributes;
 
 internal class QueryParamContractResolver : DefaultContractResolver
 {

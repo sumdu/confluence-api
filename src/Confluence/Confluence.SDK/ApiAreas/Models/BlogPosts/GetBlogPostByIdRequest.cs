@@ -1,8 +1,8 @@
-﻿using Confluence.ApiV2.ApiAreas.Models._Common;
-using Confluence.ApiV2.Serializers.Attributes;
+﻿using RichkaSoft.Confluence.ApiV2.ApiAreas.Models._Common;
+using RichkaSoft.Confluence.ApiV2.Serializers.Attributes;
 using Newtonsoft.Json;
 
-namespace Confluence.ApiV2.ApiAreas.Models.BlogPosts;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.BlogPosts;
 
 public class GetBlogPostByIdRequest
 {

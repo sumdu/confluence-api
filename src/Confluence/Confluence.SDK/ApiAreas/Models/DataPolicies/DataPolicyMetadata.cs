@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Confluence.ApiV2.ApiAreas.Models.DataPolicies;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.DataPolicies;
 
 public class DataPolicyMetadata
 {

@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Runtime.Serialization;
 
-namespace Confluence.ApiV2.ApiAreas.Models.BlogPosts;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.BlogPosts;
 
 public /* abstract */ class CreateBlogPostRequestBody // used for Create and Update
 {

@@ -2,7 +2,7 @@
 using Newtonsoft.Json.Converters;
 using System.Runtime.Serialization;
 
-namespace Confluence.ApiV2.ApiAreas.Models.Spaces;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Spaces;
 
 //[JsonConverter(typeof(StringEnumConverter))]
 public enum SpaceStatus

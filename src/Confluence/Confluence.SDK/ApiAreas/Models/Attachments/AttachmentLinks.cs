@@ -1,7 +1,7 @@
-﻿using Confluence.ApiV2.ApiAreas.Models._Common;
+﻿using RichkaSoft.Confluence.ApiV2.ApiAreas.Models._Common;
 using Newtonsoft.Json;
 
-namespace Confluence.ApiV2.ApiAreas.Models.Attachments;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Attachments;
 
 public class AttachmentLinks : ObjectLinks
 {

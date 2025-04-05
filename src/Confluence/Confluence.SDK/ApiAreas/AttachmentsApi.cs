@@ -1,9 +1,9 @@
-﻿using Confluence.ApiV2.ApiAreas.Models;
-using Confluence.ApiV2.ApiAreas.Models.Attachments;
-using Confluence.ApiV2.ApiAreas.Models.Pages;
+﻿using RichkaSoft.Confluence.ApiV2.ApiAreas.Models;
+using RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Attachments;
+using RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Pages;
 using RestSharp;
 
-namespace Confluence.ApiV2.ApiAreas
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas
 {
     public class AttachmentsApi
     {

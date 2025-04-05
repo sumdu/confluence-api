@@ -1,12 +1,12 @@
-﻿using Confluence.ApiV2.ApiAreas;
-using Confluence.ApiV2.ApiAreas.Models;
-using Confluence.ApiV2.Exceptions;
-using Confluence.ApiV2.Serializers;
+﻿using RichkaSoft.Confluence.ApiV2.ApiAreas;
+using RichkaSoft.Confluence.ApiV2.ApiAreas.Models;
+using RichkaSoft.Confluence.ApiV2.Exceptions;
+using RichkaSoft.Confluence.ApiV2.Serializers;
 using Newtonsoft.Json;
 using RestSharp;
 using RestSharp.Authenticators;
 
-namespace Confluence.ApiV2
+namespace RichkaSoft.Confluence.ApiV2
 {
     public sealed class ConfluenceClient
     {

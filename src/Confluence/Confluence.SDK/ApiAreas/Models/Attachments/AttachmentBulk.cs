@@ -1,8 +1,8 @@
-﻿using Confluence.ApiV2.ApiAreas.Models._Common;
-using Confluence.ApiV2.ApiAreas.Models.Pages;
+﻿using RichkaSoft.Confluence.ApiV2.ApiAreas.Models._Common;
+using RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Pages;
 using Newtonsoft.Json;
 
-namespace Confluence.ApiV2.ApiAreas.Models.Attachments;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Attachments;
 
 public class AttachmentBulk
 {

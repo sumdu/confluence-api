@@ -2,7 +2,7 @@
 using System.Reflection;
 using System.Runtime.Serialization;
 
-namespace Confluence.ApiV2.Extensions;
+namespace RichkaSoft.Confluence.ApiV2.Extensions;
 
 public static class EnumExtensions
 {

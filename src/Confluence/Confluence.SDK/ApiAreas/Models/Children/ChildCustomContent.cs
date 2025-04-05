@@ -1,7 +1,7 @@
-﻿using Confluence.ApiV2.ApiAreas.Models._Common;
+﻿using RichkaSoft.Confluence.ApiV2.ApiAreas.Models._Common;
 using Newtonsoft.Json;
 
-namespace Confluence.ApiV2.ApiAreas.Models.Children;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Children;
 public class ChildCustomContent
 {
     [JsonProperty("id")]

@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Reflection;
 
-namespace Confluence.ApiV2.Extensions;
+namespace RichkaSoft.Confluence.ApiV2.Extensions;
 
 public static class PropertyInfoExtensions
 {

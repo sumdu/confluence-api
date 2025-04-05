@@ -1,9 +1,9 @@
-﻿using Confluence.ApiV2.ApiAreas.Models;
-using Confluence.ApiV2.ApiAreas.Models._Common;
-using Confluence.ApiV2.ApiAreas.Models.Labels;
+﻿using RichkaSoft.Confluence.ApiV2.ApiAreas.Models;
+using RichkaSoft.Confluence.ApiV2.ApiAreas.Models._Common;
+using RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Labels;
 using RestSharp;
 
-namespace Confluence.ApiV2.ApiAreas;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas;
 
 public class LabelsApi
 {

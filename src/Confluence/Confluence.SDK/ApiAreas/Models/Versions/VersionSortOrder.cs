@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace Confluence.ApiV2.ApiAreas.Models.Versions;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Versions;
 
 public enum VersionSortOrder
 {

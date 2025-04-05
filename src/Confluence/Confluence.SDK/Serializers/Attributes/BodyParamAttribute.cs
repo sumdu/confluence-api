@@ -1,4 +1,4 @@
-﻿namespace Confluence.ApiV2.Serializers.Attributes;
+﻿namespace RichkaSoft.Confluence.ApiV2.Serializers.Attributes;
 
 [AttributeUsage(AttributeTargets.Property)]
 internal class PathParamAttribute : Attribute

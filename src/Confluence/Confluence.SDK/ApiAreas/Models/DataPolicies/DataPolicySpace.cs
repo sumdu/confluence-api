@@ -1,5 +1,5 @@
-﻿using Confluence.ApiV2.ApiAreas.Models._Common;
-using Confluence.ApiV2.ApiAreas.Models.Pages;
+﻿using RichkaSoft.Confluence.ApiV2.ApiAreas.Models._Common;
+using RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Pages;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Confluence.ApiV2.ApiAreas.Models.DataPolicies;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.DataPolicies;
 
 public class DataPolicySpace
 {

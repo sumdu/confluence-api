@@ -1,8 +1,8 @@
-﻿using Confluence.ApiV2.Serializers.Attributes;
+﻿using RichkaSoft.Confluence.ApiV2.Serializers.Attributes;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Confluence.ApiV2.Serializers;
+namespace RichkaSoft.Confluence.ApiV2.Serializers;
 
 internal class BodyParamsSerializer
 {

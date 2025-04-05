@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Confluence.ApiV2.Serializers;
+namespace RichkaSoft.Confluence.ApiV2.Serializers;
 
 public class CustomJsonSerializer
 {

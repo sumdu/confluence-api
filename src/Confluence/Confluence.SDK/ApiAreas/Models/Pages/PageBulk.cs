@@ -1,8 +1,8 @@
-﻿using Confluence.ApiV2.ApiAreas.Models._Common;
+﻿using RichkaSoft.Confluence.ApiV2.ApiAreas.Models._Common;
 using Newtonsoft.Json;
 using System.Runtime.Serialization;
 
-namespace Confluence.ApiV2.ApiAreas.Models.Pages;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Pages;
 
 public class PageBulk
 {

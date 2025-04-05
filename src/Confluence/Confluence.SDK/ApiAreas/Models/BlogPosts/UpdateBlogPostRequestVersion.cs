@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Confluence.ApiV2.ApiAreas.Models.BlogPosts;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.BlogPosts;
 
 public class UpdateBlogPostRequestVersion
 {

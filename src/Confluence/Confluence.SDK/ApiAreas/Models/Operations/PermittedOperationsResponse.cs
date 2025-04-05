@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Confluence.ApiV2.ApiAreas.Models.Operations;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Operations;
 
 public class PermittedOperationsResponse
 {

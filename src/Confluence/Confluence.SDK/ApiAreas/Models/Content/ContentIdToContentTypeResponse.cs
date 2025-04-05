@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Confluence.ApiV2.ApiAreas.Models.Content;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Content;
 public class ContentIdToContentTypeResponse
 {
     [JsonProperty("results")]

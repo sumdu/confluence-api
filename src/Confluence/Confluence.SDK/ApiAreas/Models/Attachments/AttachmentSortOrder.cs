@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace Confluence.ApiV2.ApiAreas.Models.Attachments;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Attachments;
 
 public enum AttachmentSortOrder
 {

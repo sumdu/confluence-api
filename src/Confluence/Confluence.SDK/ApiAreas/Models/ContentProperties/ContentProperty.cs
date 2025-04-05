@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Confluence.ApiV2.ApiAreas.Models.ContentProperties;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.ContentProperties;
 public class ContentProperty
 {
     [JsonProperty("id")]

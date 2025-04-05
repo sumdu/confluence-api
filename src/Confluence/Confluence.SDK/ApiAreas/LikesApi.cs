@@ -1,7 +1,7 @@
-using Confluence.ApiV2.ApiAreas.Models.Likes;
+using RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Likes;
 using RestSharp;
 
-namespace Confluence.ApiV2.ApiAreas
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas
 {
     public class LikesApi
     {

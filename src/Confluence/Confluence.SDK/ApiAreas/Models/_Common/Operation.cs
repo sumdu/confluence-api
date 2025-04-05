@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Confluence.ApiV2.ApiAreas.Models._Common;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models._Common;
 
 public class Operation
 {

@@ -1,8 +1,8 @@
-﻿using Confluence.ApiV2.Serializers.Attributes;
+﻿using RichkaSoft.Confluence.ApiV2.Serializers.Attributes;
 using Newtonsoft.Json;
 using System.Runtime.Serialization;
 
-namespace Confluence.ApiV2.ApiAreas.Models.Spaces;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Spaces;
 
 public class GetSpaceByIdRequest
 {
