@@ -40,13 +40,14 @@ Following APIs are supported at the moment:
 
 Below examples demonstrate the basic usage. 
 
-Please, replace placeholders with your actual Confluence domain, email and API-token. To get API token, go to https://id.atlassian.com/manage-profile/security/api-tokens and create a new token.
+Please, replace placeholders with your actual Confluence domain, email and API-token. 
 
 #### 1. Authentication
 
 To use the Confluence API, you need to authenticate your requests. The SDK supports both Basic Authentication.
 
 ```csharp
+// Get api token from https://id.atlassian.com/manage-profile/security/api-tokens
 var client = new ConfluenceClient({confluence-url}, {email}, {api-token});
 ```
 
