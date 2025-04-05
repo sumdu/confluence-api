@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Confluence REST API v2 Client</Title>
+	<Description>.NET library to call Confluence REST API v2</Description>
+	<Version>1.0.0</Version>
+	<Authors>Richka Soft</Authors>
+	<ProjectUrl>https://github.com/sumdu/confluence-api</ProjectUrl>
+	<PackageReleaseNotes>
+		<![CDATA[
+	Version 1.0.0
+	---------------
+	Initial release of Confluence REST API v2 Client for .NET.
+	]]></PackageReleaseNotes>
+	<PackageId>$(AssemblyName)</PackageId>
+	<RootNamespace>RichkaSoft.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+	<AssemblyName>RichkaSoft.$(MSBuildProjectName)</AssemblyName>
+	<PackageProjectUrl>https://github.com/sumdu/confluence-api</PackageProjectUrl>
+	<PackageReadmeFile>Readme.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageIcon>resources\icon.png</PackageIcon>
+  </PropertyGroup>
+
+	<ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="RestSharp" Version="112.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Images\icon.png">
+	  <Pack>true</Pack>
+	  <PackagePath>\resources\icon.png</PackagePath>
+	  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+	  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+	<metadata>
+		<id>$id$</id>
+		<version>$version$</version>
+		<title>$title$</title>
+		<authors>$author$</authors>
+		<icon>resources\icon.png</icon>
+		<iconUrl>resources\icon.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<license type="expression">MIT</license>
+		<projectUrl>$projectUrl$</projectUrl>
+		<description>$description$</description>
+		<releaseNotes>$packageReleaseNotes$</releaseNotes>
+		<copyright>$copyright$</copyright>
+		<tags>atlassian confluence rest api v2</tags>
+	</metadata>
+</package>

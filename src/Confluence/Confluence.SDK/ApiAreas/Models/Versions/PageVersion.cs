@@ -1,0 +1,9 @@
+﻿using Confluence.ApiV2.ApiAreas.Models._Common;
+using Newtonsoft.Json;
+
+namespace Confluence.ApiV2.ApiAreas.Models.Versions;
+public class PageVersion : _Common.Version
+{
+    [JsonProperty("page")]
+    public VersionedEntity Page { get; set; }
+}
