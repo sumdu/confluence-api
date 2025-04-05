@@ -3,7 +3,7 @@ using System.Runtime.Serialization;
 
 namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Pages;
 
-public /* abstract */ class CreatePageRequestBody // used for Create and Update
+public abstract class CreatePageRequestBody // used for Create and Update
 {
 }
 
