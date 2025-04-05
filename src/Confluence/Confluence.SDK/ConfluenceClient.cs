@@ -8,7 +8,7 @@ using RestSharp.Authenticators;
 
 namespace Confluence.ApiV2
 {
-    public class ConfluenceClient
+    public sealed class ConfluenceClient
     {
         private RestClient Client { get; set; }
 
@@ -45,7 +45,7 @@ namespace Confluence.ApiV2
             return ApiServiceUri;
         }
 
-        public T MakeRequest<T>(string path, Method method, object request)
+        internal T MakeRequest<T>(string path, Method method, object request)
         {
             var queryString = new QueryParamsSerializer().Serialize(request);
             var requestBody = new BodyParamsSerializer().Serialize(request);

@@ -46,16 +46,31 @@ Please, replace placeholders with your actual Confluence domain, email and API-t
 
 To use the Confluence API, you need to authenticate your requests. The SDK supports both Basic Authentication.
 
+```csharp
+  var client = new ConfluenceClient({confluence-url}, {email}, {api-token});
+```
+
 #### 2. Retrieve All Spaces
 
 ```csharp
-
+	var spaces = client.Spaces.GetSpaces(new GetSpacesRequest());
 ```
 
 #### 3. Retrieve All Pages From a Space
 
 ```csharp
+    var spaceId = 4555533366;
+	var pages = client.Pages.GetPagesInSpace(new GetPagesInSpaceRequest { Id = spaceId });
+```
 
+#### 4. How to use pagination
+
+```csharp
+	// Get first page
+	var allSpacesFirstPage = client.Spaces.GetSpaces(new GetSpacesRequest());
+	
+	// Get remianing pages
+	var allSpaces = client.FetchAllPages(allSpacesFirstPage);
 ```
 
 ## Contribute
