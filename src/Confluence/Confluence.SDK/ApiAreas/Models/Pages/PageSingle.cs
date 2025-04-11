@@ -10,7 +10,7 @@ public class PageSingle
     public string Title { get; set; }
     public string SpaceId { get; set; }
     public string ParentId { get; set; }
-    public ParentContentType ParentType { get; set; }
+    public ParentContentType? ParentType { get; set; }
     public int Position { get; set; }
     public string AuthorId { get; set; }
     public string OwnerId { get; set; }
