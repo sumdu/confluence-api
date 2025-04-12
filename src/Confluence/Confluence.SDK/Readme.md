@@ -53,7 +53,7 @@ Following APIs are supported at the moment:
   ☑ Ancestors
   ☑ Blog Post
   ☑ Children
-  ☐ Classification Level
+  ☑ Classification Level
   ☐ Comment
   ☑ Content
   ☑ Content Properties
