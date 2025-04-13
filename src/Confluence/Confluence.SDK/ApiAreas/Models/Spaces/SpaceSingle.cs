@@ -37,55 +37,19 @@ public class SpaceSingle
     public SpaceIcon Icon { get; set; }
 
     [JsonProperty("labels")]
-    public SpaceSingleLabels Labels { get; set; }
+    public LabelResults Labels { get; set; }
 
     [JsonProperty("properties")]
-    public SpaceSingleProperties Properties { get; set; }
+    public SpacePropertyResults Properties { get; set; }
 
     [JsonProperty("operations")]
-    public SpaceSingleOperations Operations { get; set; }
+    public OperationResults Operations { get; set; }
 
     [JsonProperty("permissions")]
-    public SpaceSinglePermissions Permissions { get; set; }
+    public SpacePermissionAssignmentResults Permissions { get; set; }
 
     [JsonProperty("_links")]
     public SpaceLinks_Object Links { get; set; }
-}
-
-public class SpaceSingleProperties
-{
-    [JsonProperty("results")]
-    public List<SpaceProperty> Results { get; set; }
-
-    [JsonProperty("meta")]
-    public OptionalFieldMeta Meta { get; set; }
-
-    [JsonProperty("_links")]
-    public OptionalFieldLinks Links { get; set; }
-}
-
-public class SpaceSingleOperations
-{
-    [JsonProperty("results")]
-    public List<Operation> Results { get; set; }
-
-    [JsonProperty("meta")]
-    public OptionalFieldMeta Meta { get; set; }
-
-    [JsonProperty("_links")]
-    public OptionalFieldLinks Links { get; set; }
-}
-
-public class SpaceSinglePermissions
-{
-    [JsonProperty("results")]
-    public List<SpacePermissionAssignment> Results { get; set; }
-
-    [JsonProperty("meta")]
-    public OptionalFieldMeta Meta { get; set; }
-
-    [JsonProperty("_links")]
-    public OptionalFieldLinks Links { get; set; }
 }
 
 public class SpacePermissionAssignment

@@ -1,10 +1,9 @@
-﻿using RichkaSoft.Confluence.ApiV2.ApiAreas.Models._Common;
-using RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Pages;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
-namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models.Spaces;
+namespace RichkaSoft.Confluence.ApiV2.ApiAreas.Models._Common;
 
-public class SpaceSingleLabels
+// TODO: refactor this to be a generic model e.g. Result<T>
+public class LabelResults
 {
     [JsonProperty("results")]
     public List<Label> Results { get; set; }

@@ -28,6 +28,7 @@ namespace RichkaSoft.Confluence.ApiV2
         public BlogPostsApi BlogPosts => new BlogPostsApi(this);
         public ChildrenApi Children => new ChildrenApi(this);
         public ClassificationLevelsApi ClassificationLevels => new ClassificationLevelsApi(this);
+        public CommentsApi Comments => new CommentsApi(this);
         public ContentApi Content => new ContentApi(this);
         public ContentPropertiesApi ContentProperties => new ContentPropertiesApi(this);
         public DataPoliciesApi DataPolicies => new DataPoliciesApi(this);

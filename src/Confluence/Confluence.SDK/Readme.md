@@ -54,7 +54,7 @@ Following APIs are supported at the moment:
   ☑ Blog Post
   ☑ Children
   ☑ Classification Level
-  ☐ Comment
+  ☑ Comment
   ☑ Content
   ☑ Content Properties
   ☐ Custom Content
